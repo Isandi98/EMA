@@ -219,7 +219,7 @@ def main():
 
     try:
         st.write("Leyendo el archivo EMA.xlsx...")
-        nombres_ema = pd.read_excel('C:/Users/isaac/Documents/ALFA/EMA/busca si es registrable segun la EMA/EMA_similaritycheck/EMA.xlsx')['Nombre'].tolist()
+        nombres_ema = pd.read_excel('EMA.xlsx')['Nombre'].tolist()
         st.write("Archivo leído correctamente.")
     except Exception as e:
         st.write(f"Error al leer el archivo Excel: {e}")
