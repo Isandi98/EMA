@@ -7,4 +7,4 @@ jellyfish
 openpyxl
 python-docx
 python-Levenshtein
-openai
+openai==0.28
