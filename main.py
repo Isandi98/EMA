@@ -15,7 +15,7 @@ import os
 
 
 # Configuración de la clave de API de OpenAI
-OPENAI_API_KEY = "your key"
+OPENAI_API_KEY = "OPENAI_APÌ_KEY"
 
 # Funciones de similitud
 def soundex_similarity(name1, name2):
