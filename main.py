@@ -15,7 +15,7 @@ import os
 
 
 
-api_key="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"
+API_KEY=""
 
 # Funciones de similitud
 def soundex_similarity(name1, name2):
