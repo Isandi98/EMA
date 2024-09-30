@@ -17,7 +17,7 @@ import os
 from openai import OpenAI  # {{ edit_1 }}
 
 client = OpenAI(
-    api_key=st.secrets["auth_token"]
+    api_key=st.secrets["API_KEY"]
 )
 
 # Funciones de similitud
