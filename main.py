@@ -1,6 +1,5 @@
 import streamlit as st
 
-"authorization": st.secrets["token"]
 import pandas as pd
 from fuzzywuzzy import fuzz
 import phonetics
