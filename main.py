@@ -1,6 +1,6 @@
 import streamlit as st
 
-openai.api_key = st.secrets["openai_api_key"]
+openai.api_key = st.secrets["general"]["openai_api_key"]
 import pandas as pd
 from fuzzywuzzy import fuzz
 import phonetics
