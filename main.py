@@ -15,8 +15,7 @@ from docx.shared import Pt, Inches
 import io
 import os 
 
-
-
+openai_api_key = "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"
 
 
 # Funciones de similitud
