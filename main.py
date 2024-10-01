@@ -14,7 +14,7 @@ import io
 import os
 
 
-openai.api_key = st.secrets["general"]["KEY"]
+"authorization": = st.secrets["auth_token"]
 
 
 
