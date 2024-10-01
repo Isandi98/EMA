@@ -14,7 +14,7 @@ import io
 import os
 
 
-"authorization": = st.secrets["auth_token"]
+"authorization": = st.secrets["token"]
 
 
 
