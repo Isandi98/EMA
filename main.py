@@ -14,7 +14,7 @@ from docx.shared import Pt, Inches
 import io
 import os 
 
-openai_api_key = 
+openai.api_key = st.secrets["general"]["openai_api_key"]
 
 
 # Funciones de similitud
